@@ -5,8 +5,9 @@
 
 1. **Clona el repositorio:**
 
+   ```bash
    git clone https://github.com/carloslorenzo7/PruebaTecnica-Front.git
-   cd nombre-de-la-carpeta
+   cd PruebaTecnica-Front
 
 2. **Instala las dependencias:**
 
