@@ -21,5 +21,5 @@
    Esto iniciará el servidor de desarrollo en http://localhost:3000
 
 
-4. Tambien lo puedes ver en despliegue en Vercel: https://vercel.com/carlos-lorenzos-projects/prueba-tecnica-front
+4. Tambien lo puedes ver en despliegue en Vercel: https://prueba-tecnica-front-ashy.vercel.app/
 
