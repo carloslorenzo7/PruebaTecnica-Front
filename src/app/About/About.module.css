@@ -1,0 +1,112 @@
+@media (min-width: 1025px) {
+  .aboutContainer {
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    padding: 5rem;
+    margin: 0;
+    align-items: flex-start;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .title {
+    color:#471e85;
+    width: 50%;
+    text-align: right;
+    font-size: 5rem;
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    margin-top: 7rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .img {
+    flex: 0 0 50%;
+    max-width: 100%;
+    margin-bottom: -6rem;
+  }
+
+  .foto {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .description {
+    flex: 1;
+    text-align: start;
+    margin-top: 17rem;
+    font-size: 2rem;
+    font-family: Kanit, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aboutContainer {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    color:#471e85;
+    margin-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .description {
+    text-align: start;
+    font-family: Kanit, sans-serif;
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    border: 2px solid rgba(37, 35, 35, 0.74);
+    border-radius: 8px;
+    line-height: 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutContainer {
+    text-align: center;
+    padding: 1rem;
+  }
+  .title {
+    color:#471e85;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -2rem;
+    font-family: "Roboto", sans-serif;
+  }
+  .img {
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    text-align: start;
+    font-size: 1.5rem;
+    margin-top: -5rem;
+    padding: 1rem;
+    border: 2px solid rgba(37, 35, 35, 0.74);
+    border-radius: 8px;
+    background-color: rgba(48, 41, 20, 0);
+    font-family: Kanit, sans-serif;
+    line-height: 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+}
